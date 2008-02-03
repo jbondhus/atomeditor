@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomEditor3", "AtomEditor3\AtomEditor3.csproj", "{4F153AE4-7F9F-4B9A-B471-20326F52B0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibAtomEditor", "LibAtomEditor\LibAtomEditor.csproj", "{9F3C6AEB-9B30-43D8-91DF-BE407D54A2EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryEditor", "BinaryEditor\BinaryEditor.csproj", "{6AF4EC5F-0765-47E7-AA12-DDAAFB6E1D82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F153AE4-7F9F-4B9A-B471-20326F52B0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F153AE4-7F9F-4B9A-B471-20326F52B0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F153AE4-7F9F-4B9A-B471-20326F52B0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F153AE4-7F9F-4B9A-B471-20326F52B0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3C6AEB-9B30-43D8-91DF-BE407D54A2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3C6AEB-9B30-43D8-91DF-BE407D54A2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3C6AEB-9B30-43D8-91DF-BE407D54A2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3C6AEB-9B30-43D8-91DF-BE407D54A2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF4EC5F-0765-47E7-AA12-DDAAFB6E1D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF4EC5F-0765-47E7-AA12-DDAAFB6E1D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF4EC5F-0765-47E7-AA12-DDAAFB6E1D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF4EC5F-0765-47E7-AA12-DDAAFB6E1D82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
