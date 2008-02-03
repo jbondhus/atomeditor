@@ -1,0 +1,208 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17DFE3D8-D9FA-48BE-9AD1-C61F15E52DC5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kirishima16.Applications.AtomEditor2</RootNamespace>
+    <AssemblyName>AtomEditor2</AssemblyName>
+    <ManifestCertificateThumbprint>B05CC649BC3B1A6653F7D85ADB94DC950CC55514</ManifestCertificateThumbprint>
+    <ManifestKeyFile>AtomEditor2_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationRevision>11</ApplicationRevision>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>AtomEditor2_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <PublishUrl>ftp://ftp.wankuma.com/co/AtomEditor2/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>http://hcm.wankuma.com/co/AtomEditor2/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.2.2864.18696, Culture=neutral, PublicKeyToken=d481317c817cec47, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicBoxDecoder.cs" />
+    <Compile Include="BinaryBoxEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BinaryBoxEditor.Designer.cs">
+      <DependentUpon>BinaryBoxEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoxLongPair.cs" />
+    <Compile Include="NewBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewBoxForm.Designer.cs">
+      <DependentUpon>NewBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BinaryBoxEditor.resx">
+      <DependentUpon>BinaryBoxEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewBoxForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="AtomEditor2_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AtomEditor3\BinaryEditor\BinaryEditor.csproj">
+      <Project>{6AF4EC5F-0765-47E7-AA12-DDAAFB6E1D82}</Project>
+      <Name>BinaryEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibAtomEditor\LibAtomEditor.csproj">
+      <Project>{ECFBEC6C-06E9-48C9-932D-FB98272CB30F}</Project>
+      <Name>LibAtomEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibMP4Box\LibMP4Box.csproj">
+      <Project>{61AD6ADB-BCAF-4FCD-BB19-660BDD5BF6D8}</Project>
+      <Name>LibMP4Box</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\Readme.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Exe\NgenExecWin.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Exe\NgenExec.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lib\WeifenLuo.WinFormsUI.Docking.dll" />
+    <None Include="Resources\file_pen_b.gif" />
+    <None Include="Resources\cut_b.gif" />
+    <None Include="Resources\copy_b.gif" />
+    <None Include="Resources\paste_text_b.gif" />
+    <None Include="Resources\item_del_simple.gif" />
+    <None Include="Resources\item_add_right.gif" />
+    <None Include="Resources\item_add_up.gif" />
+    <None Include="Resources\item_add_down.gif" />
+    <None Include="Resources\tab_new_b.gif" />
+    <None Include="Resources\win_iframe.gif" />
+    <None Include="Resources\file_text1_b.gif" />
+    <None Include="Resources\book_close_b.gif" />
+    <None Include="Resources\fol_text_yb.gif" />
+    <None Include="Resources\tab_many_save_b.png" />
+    <None Include="Resources\tab_many_bl_b.gif" />
+    <None Include="Resources\newimg.png" />
+    <None Include="Resources\tab_many_del_b.gif" />
+    <None Include="Resources\tab_del_b.gif" />
+    <None Include="Resources\saveAs_b.gif" />
+    <None Include="Resources\save_b.gif" />
+    <None Include="Resources\fol_op_y.gif" />
+    <None Include="Resources\fol_cl_y.gif" />
+    <None Include="Resources\file_bl_b.gif" />
+    <None Include="Resources\project_bl_b.gif" />
+    <None Include="app.config" />
+    <None Include="Resources\AboutBG.png" />
+    <None Include="Resources\ATOMEditorLogo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>rem start explorer "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

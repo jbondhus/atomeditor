@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AboutBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AboutBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ATOMEditorLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ATOMEditorLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_close_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book_close_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cut_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cut_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_bl_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file_bl_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_pen_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file_pen_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_text1_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file_text1_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fol_cl_y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fol_cl_y.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fol_op_y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fol_op_y.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fol_text_yb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fol_text_yb.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_add_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_add_down.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_add_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_add_right.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_add_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_add_up.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_del_simple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_del_simple.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msgBackingUpOffset" xml:space="preserve">
+    <value>オフセット情報のバックアップを作成しています。</value>
+  </data>
+  <data name="msgCanotExportWithoutSave" xml:space="preserve">
+    <value>未保存のノードをエクスポートすることはできません。</value>
+  </data>
+  <data name="msgCheckingFile" xml:space="preserve">
+    <value>ファイルのヘッダを確認しています。</value>
+  </data>
+  <data name="msgDifferentNameExportedBox" xml:space="preserve">
+    <value>インポートするBoxの種類が違います。</value>
+  </data>
+  <data name="msgFakeNode" xml:space="preserve">
+    <value>このBox(Atom)は誤検出です。
+このBoxに対応する一時ファイルは生成されていません。</value>
+  </data>
+  <data name="msgInportWarning" xml:space="preserve">
+    <value>Boxをインポートするとテンポラリファイルが変更されます。
+続行しますか？</value>
+  </data>
+  <data name="msgInvalidExportedBox" xml:space="preserve">
+    <value>インポートするファイルの形式が不正です。</value>
+  </data>
+  <data name="msgNgenFailed" xml:space="preserve">
+    <value>NgenExecWinの起動に失敗しました。
+{0}</value>
+  </data>
+  <data name="msgNotMp4File" xml:space="preserve">
+    <value>このファイルはMP4またはQTファイルではありません。</value>
+  </data>
+  <data name="msgOpeningFile" xml:space="preserve">
+    <value>ファイルを開いています：</value>
+  </data>
+  <data name="msgOpeningNode" xml:space="preserve">
+    <value>Box(Atom)を開いています。</value>
+  </data>
+  <data name="msgOpenLogFileFailed" xml:space="preserve">
+    <value>ログファイルのオープンに失敗しました。
+書き込み可能な場所に設置されているか確認してください。</value>
+  </data>
+  <data name="msgOpenNodeCompleted" xml:space="preserve">
+    <value>Boxが選択されています：</value>
+  </data>
+  <data name="msgOpenNodeFailed" xml:space="preserve">
+    <value>ノードが開けませんでいた。
+</value>
+  </data>
+  <data name="msgOpenReadFileFailed" xml:space="preserve">
+    <value>入力ファイルを開けませんでした。
+ほかのアプリケーションで開かれていないか確認してください。</value>
+  </data>
+  <data name="msgOpenWriteFileFailed" xml:space="preserve">
+    <value>保存先ファイルを開けませんでした。
+ほかのアプリケーションで開かれていないか確認してください。</value>
+  </data>
+  <data name="msgParseNodeFailed" xml:space="preserve">
+    <value>詳細情報表示処理で例外が発生しました。
+情報が正しく表示されていない可能性があります。</value>
+  </data>
+  <data name="msgParsingFile" xml:space="preserve">
+    <value>ファイルのBox(Atom)を解析しています。</value>
+  </data>
+  <data name="msgParsingNode" xml:space="preserve">
+    <value>Box(Atom)を解析しています。</value>
+  </data>
+  <data name="msgReadmeNotFount" xml:space="preserve">
+    <value>Readmeファイルが見つかりません。</value>
+  </data>
+  <data name="msgRemoveFileFailed" xml:space="preserve">
+    <value>保存先ファイルの削除に失敗しました。
+ほかのアプリケーションで開かれていないか確認してください。</value>
+  </data>
+  <data name="msgRemoveTmpDirFailed" xml:space="preserve">
+    <value>テンポラリフォルダの削除に失敗しました。
+アプリケーション終了後に以下のフォルダを削除してください。
+{0}
+----
+{1}</value>
+  </data>
+  <data name="msgRemoveTmpFiles" xml:space="preserve">
+    <value>テンポラリファイルを削除しています。</value>
+  </data>
+  <data name="msgRemovingFile" xml:space="preserve">
+    <value>出力先ファイルを削除しています。</value>
+  </data>
+  <data name="msgRemovingTmpDir" xml:space="preserve">
+    <value>テンポラリフォルダを削除しています。</value>
+  </data>
+  <data name="msgRenderingNodeToTree" xml:space="preserve">
+    <value>ファイルのBox(Atom)を表示しています。</value>
+  </data>
+  <data name="msgSaveFileCompleted" xml:space="preserve">
+    <value>ファイルを保存しました。</value>
+  </data>
+  <data name="msgSavingFile" xml:space="preserve">
+    <value>ファイルを保存しています：</value>
+  </data>
+  <data name="msgWritingFile" xml:space="preserve">
+    <value>出力先ファイルに書き込んでいます。</value>
+  </data>
+  <data name="msgWritingOffset" xml:space="preserve">
+    <value>オフセット情報を修正しています。</value>
+  </data>
+  <data name="opeEditNode" xml:space="preserve">
+    <value>Box(Atom)の編集</value>
+  </data>
+  <data name="opeExport" xml:space="preserve">
+    <value>Boxのエクスポート</value>
+  </data>
+  <data name="opeImport" xml:space="preserve">
+    <value>Boxのインポート</value>
+  </data>
+  <data name="opeNgen" xml:space="preserve">
+    <value>最適化</value>
+  </data>
+  <data name="opeOpenFile" xml:space="preserve">
+    <value>ファイルを開く</value>
+  </data>
+  <data name="opeOpenNode" xml:space="preserve">
+    <value>Box(Atom)を開く</value>
+  </data>
+  <data name="opeSaveFile" xml:space="preserve">
+    <value>ファイルの保存</value>
+  </data>
+  <data name="paste_text_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paste_text_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="project_bl_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\project_bl_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qesSaveAllNode" xml:space="preserve">
+    <value>{0}は編集されています。
+Box(Atom)を保存しますか？</value>
+  </data>
+  <data name="qesSaveFile" xml:space="preserve">
+    <value>現在のファイルに上書きしてよろしいですか？
+{0}</value>
+  </data>
+  <data name="qesSaveNode" xml:space="preserve">
+    <value>現在のBox(Atom)は編集されています。
+Boxを保存しますか？</value>
+  </data>
+  <data name="save_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveAs_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveAs_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sysRootNode" xml:space="preserve">
+    <value>_ROOT_</value>
+  </data>
+  <data name="tab_del_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_del_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab_many_del_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_many_del_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab_many_save_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_many_save_b.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab_new_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_new_b.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab_save_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newimg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tplFormText" xml:space="preserve">
+    <value>ATOMEditor - {0}</value>
+  </data>
+  <data name="tplFormTextLoading" xml:space="preserve">
+    <value>AtomEditor - {0}を開いています</value>
+  </data>
+  <data name="win_iframe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\win_iframe.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
