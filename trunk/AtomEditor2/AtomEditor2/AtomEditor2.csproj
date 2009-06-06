@@ -9,10 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Kirishima16.Applications.AtomEditor2</RootNamespace>
     <AssemblyName>AtomEditor2</AssemblyName>
-    <ManifestCertificateThumbprint>B05CC649BC3B1A6653F7D85ADB94DC950CC55514</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>441D9E7420FC0F58C72BBE4DA37B347E88939F99</ManifestCertificateThumbprint>
     <ManifestKeyFile>AtomEditor2_TemporaryKey.pfx</ManifestKeyFile>
-    <GenerateManifests>true</GenerateManifests>
-    <SignManifests>false</SignManifests>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>true</SignManifests>
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -39,7 +39,10 @@
     <ApplicationRevision>15</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetZone>LocalIntranet</TargetZone>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -186,6 +189,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Lib\WeifenLuo.WinFormsUI.Docking.dll" />
+    <None Include="AtomEditor2_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
     <None Include="Resources\file_pen_b.gif" />
     <None Include="Resources\cut_b.gif" />
     <None Include="Resources\copy_b.gif" />
