@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomEditor2", "AtomEditor2\AtomEditor2.csproj", "{17DFE3D8-D9FA-48BE-9AD1-C61F15E52DC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibAtomEditor", "LibAtomEditor\LibAtomEditor.csproj", "{ECFBEC6C-06E9-48C9-932D-FB98272CB30F}"
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryEditor", "..\AtomEditor3\BinaryEditor\BinaryEditor.csproj", "{6AF4EC5F-0765-47E7-AA12-DDAAFB6E1D82}"
 EndProject
 Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
